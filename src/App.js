@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from './components/Login';
-import FlightList from './components/FlightList';
 import BookFlights from './components/BookFlights';
 import './App.css';
-import Homelayout from './components/Homelayout';
 import Payment from './components/Payment';
 import MyFlight from './components/Myflight';
+import Footer from './components/Footer';
 
 function App() {
   const [flights, setFlights] = useState([]);
@@ -29,10 +28,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/book-flights" element={<BookFlights handleBookNow={handleBookNow} />} />
-          <Route path="/flights" element={<FlightList flights={flights} handleBookNow={handleBookNow} />} />
-          <Route path=" " element={<Homelayout/>}/> 
           <Route path="/payment" element={<Payment />} /> 
           <Route path="/my-flight" element={<MyFlight />} /> 
+          <Route path="/footer" element={<Footer />} />
         </Routes>
       </Router>
     </div>
