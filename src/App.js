@@ -7,6 +7,7 @@ import './App.css';
 import Homelayout from './components/Homelayout';
 import Payment from './components/Payment';
 import MyFlight from './components/Myflight';
+import Navbar from './components/Navbar';
 
 function App() {
   const [flights, setFlights] = useState([]);
@@ -25,6 +26,7 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar />
       <Router>
         <Routes>
           <Route path="/" element={<Login />} />

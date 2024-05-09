@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 const Payment = () => {
   const [paymentSuccessful, setPaymentSuccessful] = useState(false);
-  const [error, setError] = useState(null);
+  const [error] = useState(null);
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
