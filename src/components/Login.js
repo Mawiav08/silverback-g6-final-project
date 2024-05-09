@@ -28,7 +28,7 @@ function Login() {
           Password:
           <input type="password" value={password} onChange={e => setPassword(e.target.value)} />
         </label>
-        <button type="submit">Login</button>
+        <button type="submit">Book a Flight</button>
       </form>
       <main>
       </main>

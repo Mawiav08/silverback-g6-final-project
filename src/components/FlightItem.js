@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import Payment from './Payment'; // Import the Payment component
 import './FlightItem.css'; // Import the CSS file
 
 const FlightItem = ({ flight, bookNow }) => {
+  const [showPayment, setShowPayment] = useState(false);
+
+  const handleBookNowClick = () => {
+    setShowPayment(true);
+  };
+
   return (
     <div className="flight-item">
       <div className="flight-header">
@@ -15,9 +22,13 @@ const FlightItem = ({ flight, bookNow }) => {
         <p><strong>Stops:</strong> {flight.noOfStops}</p>
         <p><strong>Price:</strong> Ksh. {flight.price}</p>
       </div>
-      <button onClick={() => bookNow(flight)} className="book-now-button">
-        Book Now
-      </button>
+      {!showPayment ? (
+        <button onClick={handleBookNowClick} className="book-now-button">
+          Book Now
+        </button>
+      ) : (
+        <Payment flight={flight} />
+      )}
     </div>
   );
 };

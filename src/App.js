@@ -5,6 +5,8 @@ import FlightList from './components/FlightList';
 import BookFlights from './components/BookFlights';
 import './App.css';
 import Homelayout from './components/Homelayout';
+import Payment from './components/Payment';
+import MyFlight from './components/Myflight';
 
 function App() {
   const [flights, setFlights] = useState([]);
@@ -26,9 +28,11 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Login />} />
-          <Route path="/book-flights" element={<BookFlights />} />
-          <Route path="/flights" element={<FlightList flights={flights} bookNow={handleBookNow} />} />
+          <Route path="/book-flights" element={<BookFlights handleBookNow={handleBookNow} />} />
+          <Route path="/flights" element={<FlightList flights={flights} handleBookNow={handleBookNow} />} />
           <Route path=" " element={<Homelayout/>}/> 
+          <Route path="/payment" element={<Payment />} /> 
+          <Route path="/my-flight" element={<MyFlight />} /> 
         </Routes>
       </Router>
     </div>
