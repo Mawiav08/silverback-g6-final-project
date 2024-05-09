@@ -1,0 +1,36 @@
+.flight-item {
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(#d7ede2,#30e9ff);
+  }
+  
+  .flight-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .airline-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+    border-radius: 50%;
+  }
+  
+  .flight-details p {
+    margin-bottom: 8px;
+  }
+  
+  .book-now-button {
+    margin-left: auto;
+    background-color: #1976d2;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,8 @@
+.main.footer {
+    color: aqua;
+    background-color: #bc3545;
+    padding: 3rem;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+}

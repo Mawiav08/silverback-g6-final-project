@@ -1,0 +1,114 @@
+{
+  "flights": [
+    {
+      "flightNbr": "6E-278",
+      "airlineName": "Kenya Airways",
+      "airlineLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9Vguz-D-BwAz6WmoZR8ASwnjGslXRg08TYCr74NG2Tg&s",
+      "deptTime": "20:00",
+      "deptCity": "Nairobi",
+      "arivalTime": "22:00",
+      "arivalCity": "Mombasa",
+      "noOfStops": "0",
+      "price": "4355"
+    },
+    {
+      "flightNbr": "6E-274",
+      "airlineName": "Jambo Jet",
+      "airlineLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTICz8IVvEdcwCxbGTEtUdtnaMNS3Pp3WSO5Hp-drtBqA&s",
+      "deptTime": "16:00",
+      "deptCity": "Nairobi",
+      "arivalTime": "18:00",
+      "arivalCity": "Mombasa",
+      "noOfStops": "0",
+      "price": "6355"
+    },
+    {
+      "flightNbr": "6E-275",
+      "airlineName": "Safarilink",
+      "airlineLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu8sgTIMvF_oMMuXv26JuCJCTr6omePqKLVvH1lOjg7g&s",
+      "deptTime": "15:00",
+      "deptCity": "Nairobi",
+      "arivalTime": "17:00",
+      "arivalCity": "Mombasa",
+      "noOfStops": "0",
+      "price": "10355"
+    },
+    {
+      "flightNbr": "6E-275",
+      "airlineName": "Kenya Airways",
+      "airlineLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9Vguz-D-BwAz6WmoZR8ASwnjGslXRg08TYCr74NG2Tg&s",
+      "deptTime": "15:00",
+      "deptCity": "Nairobi",
+      "arivalTime": "17:00",
+      "arivalCity": "Maasai mara",
+      "noOfStops": "1",
+      "price": "9000"
+    },
+    {
+      "flightNbr": "AI-275",
+      "airlineName": "Safarilink",
+      "airlineLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu8sgTIMvF_oMMuXv26JuCJCTr6omePqKLVvH1lOjg7g&s",
+      "deptTime": "03:00",
+      "deptCity": "Nairobi",
+      "arivalTime": "05:00",
+      "arivalCity": "Maasai mara",
+      "noOfStops": "0",
+      "price": "5500"
+    },
+    {
+      "flightNbr": "AI-275",
+      "airlineName": "Jambo Jet",
+      "airlineLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTICz8IVvEdcwCxbGTEtUdtnaMNS3Pp3WSO5Hp-drtBqA&s",
+      "deptTime": "04:00",
+      "deptCity": "Nairobi",
+      "arivalTime": "06:00",
+      "arivalCity": "Maasai mara",
+      "noOfStops": "0",
+      "price": "3600"
+    },
+    {
+      "flightNbr": "AI-275",
+      "airlineName": "Kenya Airways",
+      "airlineLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9Vguz-D-BwAz6WmoZR8ASwnjGslXRg08TYCr74NG2Tg&s",
+      "deptTime": "03:00",
+      "deptCity": "Nairobi",
+      "arivalTime": "05:00",
+      "arivalCity": "Kisumu",
+      "noOfStops": "0",
+      "price": "15000"
+    },
+    {
+      "flightNbr": "AI-275",
+      "airlineName": "Jambo Jet",
+      "airlineLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTICz8IVvEdcwCxbGTEtUdtnaMNS3Pp3WSO5Hp-drtBqA&s",
+      "deptTime": "04:00",
+      "deptCity": "Nairobi",
+      "arivalTime": "06:00",
+      "arivalCity": "Kisumu",
+      "noOfStops": "0",
+      "price": "8600"
+    },
+    {
+      "flightNbr": "AI-266",
+      "airlineName": "Safarilink",
+      "airlineLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu8sgTIMvF_oMMuXv26JuCJCTr6omePqKLVvH1lOjg7g&s",
+      "deptTime": "04:00",
+      "deptCity": "Kisumu",
+      "arivalTime": "06:00",
+      "arivalCity": "Nairobi",
+      "noOfStops": "0",
+      "price": "5988"
+    },
+    {
+      "flightNbr": "6E-279",
+      "airlineName": "Kenya Airways",
+      "airlineLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9Vguz-D-BwAz6WmoZR8ASwnjGslXRg08TYCr74NG2Tg&s",
+      "deptTime": "16:00",
+      "deptCity": "Mombasa",
+      "arivalTime": "22:00",
+      "arivalCity": "Nairobi",
+      "noOfStops": "0",
+      "price": "6000"
+    }
+  ]
+}
