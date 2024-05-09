@@ -1,15 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from './components/Navbar';
 import Login from './components/Login';
 import BookFlights from './components/BookFlights';
 import './App.css';
 import Payment from './components/Payment';
 import MyFlight from './components/Myflight';
-<<<<<<< HEAD
-import Navbar from './components/Navbar';
-=======
 import Footer from './components/Footer';
->>>>>>> ce1b7bd777762a0c28362a8f2dc4bf1f184cc43f
 
 function App() {
   const [flights, setFlights] = useState([]);
