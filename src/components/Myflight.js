@@ -16,7 +16,7 @@ const MyFlight = ({ selectedFlight }) => {
           <p><strong>Price:</strong> Ksh. {selectedFlight.price}</p>
         </div>
       )}
-      {!selectedFlight && <p>No flight selected.</p>} {/* Debugging statement */}
+      {!selectedFlight && <p>You have successfully booked your flight</p>} {/* Debugging statement */}
     </div>
   );
 };
