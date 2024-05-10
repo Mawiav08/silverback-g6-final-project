@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import FlightItem from './FlightItem'; 
+import FlightItem from './FlightItem'; // Import the FlightItem component
 import './BookFlights.css';
 
 const BookFlights = () => {
@@ -11,7 +10,6 @@ const BookFlights = () => {
     passengers: '',
     isRoundTrip: false
   });
-  const [setFlights] = useState([]);
   const [searchResults, setSearchResults] = useState([]);
 
   const handleChange = (e) => {
@@ -38,13 +36,7 @@ const BookFlights = () => {
         throw new Error('Failed to fetch flight data');
       }
       const data = await response.json();
-      setFlights(data.flights); // Update flights state with fetched data
-      // Filter flights based on user input
-      const filteredFlights = data.flights.filter(flight =>
-        flight.deptCity.toLowerCase() === formData.origin.toLowerCase() &&
-        flight.arivalCity.toLowerCase() === formData.destination.toLowerCase()
-      );
-      setSearchResults(filteredFlights); // Update searchResults state with filtered flights
+      setSearchResults(data); // Update searchResults state with fetched data
     } catch (error) {
       console.error('Error fetching flight data:', error.message);
     }
@@ -120,4 +112,3 @@ const BookFlights = () => {
 };
 
 export default BookFlights;
-
